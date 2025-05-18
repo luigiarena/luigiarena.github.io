@@ -1,0 +1,40 @@
+body {
+    background-color: #efe2ff;
+    width: auto;
+    height: 100vh;
+}
+
+header, main, footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB79B2;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(43, 255, 184, 0.7);
+    backdrop-filter: blur(15px);
+    border: 3px dotted #a052ff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+
+}
+
+footer {
+    background-color: #d1c4e9;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
